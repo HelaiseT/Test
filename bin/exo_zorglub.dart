@@ -9,9 +9,15 @@ void main(List<String> arguments) {
 
   if (sex == "H" && age > 20) {
     print("Vous payez l'inpot.");
+    print("Vous payez l'inpot.");
+    print("Vous payez l'inpot.");
   } else if ((sex == 'F' && age >= 18) || (sex == 'F' && age >= 35)) {
     print("vous payez l'impot");
   } else {
+    print("vous ne payez pas l'impot .");
+    print("vous ne payez pas l'impot .");
+    print("vous ne payez pas l'impot .");
+    print("vous ne payez pas l'impot .");
     print("vous ne payez pas l'impot .");
   }
 }
